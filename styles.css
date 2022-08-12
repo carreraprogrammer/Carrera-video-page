@@ -1,0 +1,18 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+  }
+:root{
+    --black: #26220E;
+    --wine: #730D15;
+    --red: #f20519;
+    --gray1: #595959;
+    --gray2: #262626;
+    --white: #f4f5f0;
+    }
+
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+}
