@@ -21,6 +21,7 @@ html{
 
 nav{
 display: flex;
+position: fixed;
 width: 100%;
 height: 50px;
 background-color: var(--white);
@@ -91,4 +92,62 @@ nav i{
 }
 #div1{
     flex-basis: 70%;
+}
+
+/* here starts principal section customization */
+.principal-section{
+    height: 400vh;
+    display: flex;
+}
+.video-section{
+    height: 100%;
+   flex-basis: 70%;
+   background-color: var(--black);
+}
+.recomendations{
+    height: 100%;
+    flex-basis: 30%;
+}
+.video{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.video iframe{
+    width: 80%;
+    height: 85%;
+    margin: auto;
+    padding-top: 50px;
+}
+.feedback-bar{
+    width: 80%;
+    text-align: left;
+    color: var(--white);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 10vh;
+    display: block;
+    
+}
+.video-title{
+    height: 5vh;
+}
+.video-reactions{
+    height: 5vh;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--gray1);
+}
+.video-reactions div{
+    display: flex;
+}
+.video-reactions div i{
+    padding-right: 10px;
+}
+.video-reactions div h3{
+    font-size: 15px;
 }
